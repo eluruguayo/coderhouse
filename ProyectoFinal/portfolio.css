@@ -1,0 +1,95 @@
+html body{
+	margin:0;
+	background-image: url(http://wallpapercave.com/wp/Q89V9Mk.jpg);
+}
+
+header{
+	padding: 30px;
+	background-image: url(http://wallpaperswa.com/thumbnails/detail/20120706/blue%20minimalistic%20backgrounds%202560x1600%20wallpaper_wallpaperswa.com_53.jpg);
+}
+
+header nav{
+	float: right;
+}
+
+li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 30px;
+}
+
+img {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	transition:filter 0.4s;
+	-webkit-transition:-webkit-filter 1s;
+}
+
+img:hover {
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0); 
+}
+
+div{
+	margin-top: 20px;
+}
+
+footer{
+	background-image: url(http://wallpaperswa.com/thumbnails/detail/20120706/blue%20minimalistic%20backgrounds%202560x1600%20wallpaper_wallpaperswa.com_53.jpg);
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer a{
+	color: #4D1DE7;
+	font-size: 30px;
+}
+
+.logo{
+	height: 30px;
+	width: 60px;
+}
+
+div.texto{
+	height: 280px;
+	zoom: 1;
+	filter: alpha(opacity=0); /*Opacidad Para IE */
+	opacity: 0; /*Inicialmente transparente */
+	padding: 5px;
+	color: white;
+	background: black;
+	-moz-transition:all ease .8s; /*Aplicamos una ligera transición*/
+	-webkit-transition:all ease .8s ;
+	transition:all ease .8s;
+}
+
+.row:hover .texto {
+	filter: alpha(opacity=80);
+	opacity: .8; /*Al hacer hover sobre la img hacemos visible los datos*/
+}
+
+@media(max-width: 768px){
+	img{
+		width: 100%;
+	}
+}
+
+@media(max-width: 1024px){
+	img{
+		width: 100%;
+	}
+}
+
+@media(max-width: 468px){
+	img{
+		width: 100%;
+	}
+}
+
+@media(max-width: 2560px){
+	img{
+		width: 100%;
+	}
+}
